@@ -1,0 +1,23 @@
+<div>
+  <ion-label position="floating">ID</ion-label>
+  <ion-input type="text" [disabled]="true" [(ngModel)]="user.id"></ion-input>
+  <ion-label position="floating">Nome</ion-label>
+  <ion-input
+    type="text"
+    [disabled]="thype === 'show'"
+    [(ngModel)]="user.name"
+  ></ion-input>
+  <ion-label position="floating">E-mail</ion-label>
+  <ion-input
+    type="email"
+    [disabled]="thype === 'show'"
+    [(ngModel)]="user.email"
+  ></ion-input>
+
+  <ion-button (click)="createuser(user)" *ngIf="type === 'create'"
+    >Criar</ion-button
+  >
+  <ion-button (click)="updateUser(user)" *ngIf="type === 'update'"
+    >Atualizar</ion-button
+  >
+</div>

@@ -1,0 +1,181 @@
+ion-content {
+  .searchInput {
+    ion-row {
+      justify-content: center;
+      align-items: center;
+
+      ion-col {
+        ion-searchbar {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .searchResult {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .pokemonImg {
+      position: relative;
+      width: 100%;
+      min-height: 30%;
+      max-height: 35%;
+      padding: 30px;
+
+      ion-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+      }
+
+      ion-fab-button {
+        position: absolute;
+        right: 4%;
+        bottom: 5%;
+      }
+    }
+  }
+
+  .pokemonData {
+    width: 100%;
+    height: 55%;
+    padding: 0 30px;
+
+    ion-row {
+      ion-col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        ion-label {
+          font-size: 1.2rem;
+          margin-right: 10px;
+        }
+
+        p {
+          text-transform: capitalize;
+          font-size: 1rem;
+          margin: 0;
+        }
+      }
+    }
+
+    .pokemonTypes {
+      margin-top: 20px;
+      width: 100%;
+
+      ion-label {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      ion-col {
+        justify-content: center;
+
+        ion-button {
+          font-weight: bold;
+          font-size: 1rem;
+          text-transform: capitalize;
+          cursor: default;
+          pointer-events: none;
+
+          p {
+            color: #fff !important;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          }
+        }
+      }
+    }
+
+    .pokemonAbilities {
+      margin-top: 20px;
+      width: 100%;
+
+      ion-label {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      ion-list {
+        ion-item {
+          ion-avatar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              width: 55%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.normal {
+  background-color: var(--ion-color-normal);
+}
+.fire {
+  background-color: var(--ion-color-fire);
+}
+.water {
+  background-color: var(--ion-color-water);
+}
+.grass {
+  background-color: var(--ion-color-grass);
+}
+.electric {
+  background-color: var(--ion-color-electric);
+}
+.ice {
+  background-color: var(--ion-color-ice);
+}
+.fighting {
+  background-color: var(--ion-color-fighting);
+}
+.poison {
+  background-color: var(--ion-color-poison);
+}
+.ground {
+  background-color: var(--ion-color-ground);
+}
+.flying {
+  background-color: var(--ion-color-flying);
+}
+.psychic {
+  background-color: var(--ion-color-psychic);
+}
+.bug {
+  background-color: var(--ion-color-bug);
+}
+.rock {
+  background-color: var(--ion-color-rock);
+}
+.ghost {
+  background-color: var(--ion-color-ghost);
+}
+.dark {
+  background-color: var(--ion-color-dark);
+}
+.dragon {
+  background-color: var(--ion-color-dragon);
+}
+.steel {
+  background-color: var(--ion-color-steel);
+}
+.fairy {
+  background-color: var(--ion-color-fairy);
+}
