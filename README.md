@@ -1,4 +1,4 @@
-# web-conectrion-ionic
+# web-connection-ionic
 
 Esse aplicativo foi feito com o intuíto de ser mobile, então para ter uma melhor experiência sugiro abrir o modo de debug do seu navegador e ativar o formato de tela para simular celulares.
 
